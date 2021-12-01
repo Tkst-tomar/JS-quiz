@@ -1,0 +1,38 @@
+*{list-style-type: none;}
+
+
+
+li{display: flex;align-items: center;}
+.check{height: 15px;width: 15px;border-radius: 20px;background-color: white;margin: 0px 20px;border: 5px solid rgb(172, 255, 255);}
+#result{display: none;}
+
+
+
+
+/* ........................................ Login Page ........................................ */
+#userData{width: 300px;text-align: center;display: flex;flex-direction: column;align-items: center;margin: 100px auto;box-shadow: 0px 0px 10px black;padding: 50px;background-color: #1597E5;}
+#userData h3{margin-bottom: 50px;color: white;font-weight: 900;}
+#userData input{display: block;width: 80%;padding: 10px;margin: 10px;}
+#userData button{padding: 10px 40px;margin-top: 30px;background-color: #113CFC;color: white;font-weight: 600;border-radius: 10px;}
+
+
+
+/* ........................................ Question Page ........................................ */
+#testPage{background-color: #e4f5f5;padding: 20px;width: 80vw;margin: auto;height: 100vh;display: none;}
+#testPage #test{margin-left: 30px;}
+#testPage #test h1{font-weight: 400;margin-left: 50px;font-size: 50px;}
+#testPage #test h3{font-size: 25px;}
+#testPage #test #question{font-size: 30px;}
+#testPage #test #optionList{padding-left: 10px;font-size: 20px;}
+#testPage #test #optionList .options{margin: 10px;width: 80%;background-color: #afdbdb;border-radius: 10px;}
+#testPage #test #optionList .options:hover{background-color: #a0eeee;}
+#testPage #test #btn{padding: 20px 50px;font-size: 20px;background-color: #113CFC;color: white;font-weight: 600;border-radius: 5px;}
+
+
+
+/* ........................................ Result Page ........................................ */
+#result{margin: 200px auto;width: 400px;position: relative;box-shadow: 0px 0px 10px #113CFC;height: 250px;padding: 10px 20px;}
+#result h2{font-weight: 400;}
+#result span{font-size: 30px;}
+#result #studentMarks{margin: 0px 5px;}
+#result #res{font-weight: 400;font-size: 50px;position: absolute;top: 60%;left: 70%;}
